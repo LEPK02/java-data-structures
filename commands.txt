@@ -1,0 +1,7 @@
+Running Main.java
+cd C:\CodingNotes\Java\java_data_structures\src
+java Main.java
+
+Running Main with multiple classes:
+javac -cp . ds/*.java
+java -cp . ds/Main
