@@ -1,5 +1,9 @@
 # Java Data Structures
+
+Implementation of data structures. Accepts integer and double inputs (except Graph, Integer only).
+
 ## Table of Contents
+- GUI.java
 - Linear
 	- Dynamic Array
 	- Linked List
@@ -7,13 +11,15 @@
 	- Queue
 - Nonlinear
 	- Binary Search Tree
-	- Graph*
-	- Hash*
+	- Graph (Adjacency Matrix)
 
-* TODO
+## Requirements
+- Java 8 (https://www.java.com/en/download/)
+
+## What's New
+- GUI
 
 ## TODO
-- Input class
-- User interface
 - Graph (Adjacency List)
-- Hash
+- Hash map
+- Input types

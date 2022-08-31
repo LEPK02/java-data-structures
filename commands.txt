@@ -1,7 +1,12 @@
 Running Main.java
-cd C:\CodingNotes\Java\java_data_structures\src
+cd ./src
 java Main.java
 
 Running Main with multiple classes:
 javac -cp . ds/*.java
 java -cp . ds/Main
+
+Creating JAR file
+cd ./src
+Create manifest.txt file with: "Main-Class: ds.Main", leave 2 line-breaks after
+jar cvfm JavaDS.jar Manifest.txt ds/*.class ds/linear/*.class ds/nonlinear/*.class
